@@ -11,10 +11,10 @@
 
 ## What This Is
 
-A computational species that absorbs noisy data, recovers hidden
-patterns, compresses them, learns across exposures, enters dormancy
-when data is quiet, breaks through plateaus, and reconstructs
-destroyed signal - all in one unified pipeline.
+A digital organism that lives in data streams. It consumes excess
+information — the noise, the clutter, the raw data that accumulates
+without purpose — and transforms it into clear patterns. The result
+is not more data, but clarity and insight.
 
 It is not a single algorithm. It is eight layers working together.
 
@@ -37,26 +37,31 @@ It is not a single algorithm. It is eight layers working together.
 
 ## Running the Tests
 
-Each test is standalone in `scripts/`. Run them in order for the
-full evolution story, or run any single one alone.
+Each test is standalone in scripts/. Run them in order for the full
+evolution story, or run any single one alone.
 
 | Test | Command | Proves |
 |------|---------|--------|
-| 01 | `python3 scripts/test_01_core_loop.py` | Recovery, compression, reconstruction |
+| 01 | `python3 scripts/test_01_core_loop.py` | Pattern recovery, compression, reconstruction |
 | 02 | `python3 scripts/test_02_learning_memory.py` | Improves with exposure |
 | 03 | `python3 scripts/test_03_resilience_core.py` | Long-run improvement |
-| 04 | `python3 scripts/test_04_resilience_forced.py` | Resilience Core fires |
-| 05 | `python3 scripts/test_05_dormancy.py` | Sleeps when quiet, wakes |
+| 04 | `python3 scripts/test_04_resilience_forced.py` | Breaks through stalls |
+| 05 | `python3 scripts/test_05_dormancy.py` | Rests when quiet, wakes |
 | 06 | `python3 scripts/test_06_real_dataset.py` | Works on real data |
 | 07 | `python3 scripts/test_07_full_integration.py` | All 8 layers together |
-| 08 | `python3 scripts/test_08_benchmark.py` | Compares to PCA, zlib, MA |
+| 08 | `python3 scripts/test_08_benchmark.py` | Compares to industry tools |
+| 09 | `python3 scripts/test_09_reproducibility.py` | Same result every run |
+| 10 | `python3 scripts/test_10_crossplatform.py` | Runs identically on any device |
+| 11 | `python3 scripts/test_11_resource_efficiency.py` | Lightweight and fast |
+| 12 | `python3 scripts/test_12_perturbation.py` | Robust under real-world conditions |
+| 13 | `python3 scripts/test_13_realtime.py` | Real-time capable |
 
 ---
 
 ## Output
 
-Every test writes a plot to `results/`. Every test prints a metric
-report to the terminal. Nothing is hidden.
+Every test writes a plot or text file to results/. Every test prints
+a metric report to the terminal. Nothing is hidden.
 
 ---
 
@@ -73,23 +78,26 @@ report to the terminal. Nothing is hidden.
 ## The Eight Layers
 
 1. Absorption - takes in raw data from any source
-2. Pattern Recognition - adaptive kernel finds hidden structure
+2. Pattern Recognition - finds hidden structure in noisy signals
 3. Compression - keeps only what matters (20:1)
 4. Emission - produces human-readable output
 5. Learning Memory - improves with each exposure
-6. Dormancy State - sleeps when data is quiet
-7. Resilience Core - breaks through plateaus
-8. Pattern Reconstruction - rebuilds destroyed signal
+6. Dormancy State - rests when data is quiet
+7. Resilience Core - refuses to stall
+8. Pattern Reconstruction - rebuilds missing or damaged data
 
 ---
 
 ## Honest Boundaries
 
-- Tests 01-05 use synthetic data (smooth sine waves)
-- Tests 06-08 use the real UCI Air Quality dataset
-- PCA outperforms Datafructus on raw recovery correlation
-- Datafructus wins on capability breadth, not single-metric dominance
-- All results were produced by the creator, not an independent party
+- Tests 01-05 use synthetic data
+- Tests 06-13 use real sensor data and independent machines
+- On raw recovery, some established industry tools outperform
+  Datafructus
+- Datafructus wins on capability breadth, not single-metric
+  dominance
+- All results were produced by the creator, not an independent
+  party
 - External verification (CODECHECK) is in progress
 
 ---
