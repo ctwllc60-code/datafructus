@@ -1,0 +1,10 @@
+Datafructus Test 11 - Resource Efficiency
+
+Input size: 1000 data points
+Recovery correlation: 0.971812
+Wall time: 1.77 ms
+CPU time: 1.33 ms
+CPU utilization: 74.9%
+Python peak memory: 0.066 MB
+System peak RSS: 32.62 MB
+Result: EFFICIENT

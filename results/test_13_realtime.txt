@@ -1,0 +1,8 @@
+Datafructus Test 13 - Real-Time Performance
+
+Stream length: 500
+Avg latency: 4.24 us
+Max latency: 52.57 us
+Throughput: 235,787 points/sec
+Recovery correlation: 0.9158
+Verdict: REAL-TIME READY

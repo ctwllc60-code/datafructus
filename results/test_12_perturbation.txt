@@ -1,0 +1,12 @@
+Datafructus Test 12 - Data Perturbation
+
+Baseline: 0.9964
+
+Heavy noise (std 2.5): 0.8519
+Missing data (30% gaps): 0.9941
+Outliers (5% garbage): 0.6286
+Stuck sensor (100 pts flat): 0.9021
+Baseline drift: 0.4833
+Total corruption: -0.1644
+
+Verdict: RESILIENT
