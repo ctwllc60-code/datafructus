@@ -1,0 +1,13 @@
+version: "1.0"
+manifest:
+  - file: "results/test_01_signal_recovery.png"
+    comment: "Test 01 - Pattern recovery plot"
+  - file: "results/test_02_learning_memory.png"
+    comment: "Test 02 - Learning improvement plot"
+  - file: "results/test_13_realtime.txt"
+    comment: "Test 13 - Real-time latency and throughput"
+paper:
+  title: "Datafructus algorithmica: A Digital Species for Pattern Recovery"
+  authors:
+    - name: "Wagg"
+  reference: "https://buyermarket.soulnetvpn.com/datafructus"
